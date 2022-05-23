@@ -5,6 +5,7 @@ var hierarchy =
     [ "cbdc::locking_shard::rpc::apply_response", "structcbdc_1_1locking__shard_1_1rpc_1_1apply__response.html", null ],
     [ "cbdc::watchtower::async_client", "classcbdc_1_1watchtower_1_1async__client.html", null ],
     [ "cbdc::sentinel::async_interface", "classcbdc_1_1sentinel_1_1async__interface.html", [
+      [ "cbdc::sentinel::rpc::client", "classcbdc_1_1sentinel_1_1rpc_1_1client.html", null ],
       [ "cbdc::sentinel_2pc::controller", "classcbdc_1_1sentinel__2pc_1_1controller.html", null ]
     ] ],
     [ "cbdc::sentinel::rpc::async_server", "classcbdc_1_1sentinel_1_1rpc_1_1async__server.html", null ],
@@ -15,6 +16,9 @@ var hierarchy =
     [ "cbdc::watchtower::block_cache", "classcbdc_1_1watchtower_1_1block__cache.html", null ],
     [ "cbdc::watchtower::blocking_client", "classcbdc_1_1watchtower_1_1blocking__client.html", null ],
     [ "cbdc::blocking_queue< T >", "classcbdc_1_1blocking__queue.html", null ],
+    [ "cbdc::blocking_queue< cbdc::atomizer::tx_notify_request >", "classcbdc_1_1blocking__queue.html", null ],
+    [ "cbdc::blocking_queue< cbdc::network::message_t >", "classcbdc_1_1blocking__queue.html", null ],
+    [ "cbdc::blocking_queue< request_type >", "classcbdc_1_1blocking__queue.html", null ],
     [ "cbdc::blocking_queue< std::shared_ptr< cbdc::buffer > >", "classcbdc_1_1blocking__queue.html", null ],
     [ "cbdc::blocking_queue< std::shared_ptr< cbdc::watchtower::response > >", "classcbdc_1_1blocking__queue.html", null ],
     [ "cbdc::buffer", "classcbdc_1_1buffer.html", null ],
@@ -28,8 +32,8 @@ var hierarchy =
     [ "cbdc::rpc::client< Request, Response >", "classcbdc_1_1rpc_1_1client.html", [
       [ "cbdc::rpc::tcp_client< Request, Response >", "classcbdc_1_1rpc_1_1tcp__client.html", null ]
     ] ],
-    [ "cbdc::rpc::client< cbdc::transaction::full_tx, cbdc::sentinel::response >", "classcbdc_1_1rpc_1_1client.html", [
-      [ "cbdc::rpc::tcp_client< cbdc::transaction::full_tx, cbdc::sentinel::response >", "classcbdc_1_1rpc_1_1tcp__client.html", null ]
+    [ "cbdc::rpc::client< request, response >", "classcbdc_1_1rpc_1_1client.html", [
+      [ "cbdc::rpc::tcp_client< request, response >", "classcbdc_1_1rpc_1_1tcp__client.html", null ]
     ] ],
     [ "cbdc::transaction::compact_tx", "structcbdc_1_1transaction_1_1compact__tx.html", null ],
     [ "cbdc::transaction::compact_tx_hasher", "structcbdc_1_1transaction_1_1compact__tx__hasher.html", null ],
@@ -50,7 +54,11 @@ var hierarchy =
     [ "cbdc::locking_shard::rpc::discard_response", "structcbdc_1_1locking__shard_1_1rpc_1_1discard__response.html", null ],
     [ "cbdc::coordinator::distributed_tx", "classcbdc_1_1coordinator_1_1distributed__tx.html", null ],
     [ "cbdc::watchtower::error_cache", "classcbdc_1_1watchtower_1_1error__cache.html", null ],
-    [ "cbdc::transaction::full_tx", "structcbdc_1_1transaction_1_1full__tx.html", null ],
+    [ "cbdc::sentinel::execute_response", "structcbdc_1_1sentinel_1_1execute__response.html", null ],
+    [ "cbdc::transaction::full_tx", "structcbdc_1_1transaction_1_1full__tx.html", [
+      [ "cbdc::sentinel::execute_request", "structcbdc_1_1sentinel_1_1execute__request.html", null ],
+      [ "cbdc::sentinel::validate_request", "structcbdc_1_1sentinel_1_1validate__request.html", null ]
+    ] ],
     [ "cbdc::atomizer::get_block_request", "structcbdc_1_1atomizer_1_1get__block__request.html", null ],
     [ "cbdc::atomizer::get_block_response", "structcbdc_1_1atomizer_1_1get__block__response.html", null ],
     [ "cbdc::rpc::header", "structcbdc_1_1rpc_1_1header.html", null ],
@@ -97,7 +105,6 @@ var hierarchy =
     [ "cbdc::rpc::request< T >", "structcbdc_1_1rpc_1_1request.html", null ],
     [ "cbdc::watchtower::request", "classcbdc_1_1watchtower_1_1request.html", null ],
     [ "cbdc::rpc::response< T >", "structcbdc_1_1rpc_1_1response.html", null ],
-    [ "cbdc::sentinel::response", "structcbdc_1_1sentinel_1_1response.html", null ],
     [ "cbdc::watchtower::response", "classcbdc_1_1watchtower_1_1response.html", null ],
     [ "cbdc::serializer", "classcbdc_1_1serializer.html", [
       [ "cbdc::buffer_serializer", "classcbdc_1_1buffer__serializer.html", null ],

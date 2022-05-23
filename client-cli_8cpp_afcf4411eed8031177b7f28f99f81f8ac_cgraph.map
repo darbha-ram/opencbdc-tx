@@ -1,7 +1,7 @@
 <map id="fan_command" name="fan_command">
 <area shape="rect" id="node1" title=" " alt="" coords="5,187,109,213"/>
 <area shape="rect" id="node2" href="$client-cli_8cpp.html#ac1723efebee1f37b0b8f4ff1787cf34e" title=" " alt="" coords="157,161,275,188"/>
-<area shape="rect" id="node3" href="$client-cli_8cpp.html#a86cd5869e22f13d449855e968b8919b4" title=" " alt="" coords="165,212,267,239"/>
+<area shape="rect" id="node3" href="$client-cli_8cpp.html#afdc2f698f7384cbc9b825c591371f599" title=" " alt="" coords="165,212,267,239"/>
 <area shape="rect" id="node4" href="$classcbdc_1_1client.html#ab78fb6f2b72e00d461c07618fedea288" title="Extracts the transaction data that recipients need from senders to confirm pending transfers." alt="" coords="325,58,453,99"/>
 <area shape="rect" id="node10" href="$namespacecbdc.html#aed9c6313b2ae6e3d7f01340ab5a3076b" title="Serialize object into nuraft::buffer using a cbdc::nuraft_serializer." alt="" coords="507,164,633,191"/>
 <area shape="rect" id="node12" href="$namespacecbdc_1_1transaction_1_1validation.html#a52fdff156ea9b66122ad1e02b03c84f5" title=" " alt="" coords="323,175,456,217"/>

@@ -100,9 +100,11 @@ var annotated_dup =
         ] ],
         [ "async_interface", "classcbdc_1_1sentinel_1_1async__interface.html", "classcbdc_1_1sentinel_1_1async__interface" ],
         [ "controller", "classcbdc_1_1sentinel_1_1controller.html", "classcbdc_1_1sentinel_1_1controller" ],
+        [ "execute_request", "structcbdc_1_1sentinel_1_1execute__request.html", null ],
+        [ "execute_response", "structcbdc_1_1sentinel_1_1execute__response.html", "structcbdc_1_1sentinel_1_1execute__response" ],
         [ "interface", "classcbdc_1_1sentinel_1_1interface.html", "classcbdc_1_1sentinel_1_1interface" ],
-        [ "response", "structcbdc_1_1sentinel_1_1response.html", "structcbdc_1_1sentinel_1_1response" ],
-        [ "shard_info", "structcbdc_1_1sentinel_1_1shard__info.html", "structcbdc_1_1sentinel_1_1shard__info" ]
+        [ "shard_info", "structcbdc_1_1sentinel_1_1shard__info.html", "structcbdc_1_1sentinel_1_1shard__info" ],
+        [ "validate_request", "structcbdc_1_1sentinel_1_1validate__request.html", null ]
       ] ],
       [ "sentinel_2pc", "namespacecbdc_1_1sentinel__2pc.html", [
         [ "controller", "classcbdc_1_1sentinel__2pc_1_1controller.html", "classcbdc_1_1sentinel__2pc_1_1controller" ]

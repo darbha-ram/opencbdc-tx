@@ -1,6 +1,6 @@
 var classcbdc_1_1locking__shard_1_1state__machine =
 [
-    [ "state_machine", "classcbdc_1_1locking__shard_1_1state__machine.html#aff697e14bc690b6c7dcc360eb4f38c38", null ],
+    [ "state_machine", "classcbdc_1_1locking__shard_1_1state__machine.html#a45dceb6cd4d16b0986d81fc48cc485d5", null ],
     [ "apply_snapshot", "classcbdc_1_1locking__shard_1_1state__machine.html#ac4f2c860e4fe8597c990662f28014e8e", null ],
     [ "commit", "classcbdc_1_1locking__shard_1_1state__machine.html#af530b154e59ac62bedd643ebf4abf1ff", null ],
     [ "create_snapshot", "classcbdc_1_1locking__shard_1_1state__machine.html#a14d9a8d800678011cdbc399765c0e10a", null ],
