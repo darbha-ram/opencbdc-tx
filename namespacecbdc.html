@@ -477,7 +477,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa9a6bdedf1d4b2d530f81580f6573396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38350325f8a47299e396740deac27486"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
 <tr class="memitem:a38350325f8a47299e396740deac27486"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecbdc.html#a38350325f8a47299e396740deac27486">get_variant</a> (<a class="el" href="classcbdc_1_1serializer.html">serializer</a> &amp;deser) -&gt; std::variant&lt; Ts... &gt;</td></tr>
-<tr class="memdesc:a38350325f8a47299e396740deac27486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserializes a variant where none of the alternatives are default-constructible.  <a href="namespacecbdc.html#a38350325f8a47299e396740deac27486">More...</a><br /></td></tr>
+<tr class="memdesc:a38350325f8a47299e396740deac27486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserializes a variant where the alternatives are all default constructible or all are not default constructible If all alternatives are default constructible , each type must provide a constructor of the form T(serializer&amp;) which deserializes the type from its argument.  <a href="namespacecbdc.html#a38350325f8a47299e396740deac27486">More...</a><br /></td></tr>
 <tr class="separator:a38350325f8a47299e396740deac27486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd685b58c8cf66f4489ab808915ab85"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4dd685b58c8cf66f4489ab808915ab85"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecbdc.html#a4dd685b58c8cf66f4489ab808915ab85">serialized_size</a> (const T &amp;obj) -&gt; size_t</td></tr>
@@ -716,8 +716,8 @@ template&lt;typename... Ts&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Deserializes a variant where none of the alternatives are default-constructible. </p>
-<p >Each alternative type must provide a constructor of the form T(serializer&amp;) which deserializes the type from its argument. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacecbdc.html#a5832b3ad6b8bbc0b801851a02fb98d4f">cbdc::operator&lt;&lt;(serializer&amp;, const std::variant&lt;Ts...&gt;&amp;)</a> </dd></dl>
+<p>Deserializes a variant where the alternatives are all default constructible or all are not default constructible If all alternatives are default constructible , each type must provide a constructor of the form T(serializer&amp;) which deserializes the type from its argument. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacecbdc.html#a5832b3ad6b8bbc0b801851a02fb98d4f">cbdc::operator&lt;&lt;(serializer&amp;, const std::variant&lt;Ts...&gt;&amp;)</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="util_2serialization_2format_8hpp_source.html#l00409">409</a> of file <a class="el" href="util_2serialization_2format_8hpp_source.html">util/serialization/format.hpp</a>.</p>
 
@@ -2717,7 +2717,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="namespacecbdc_aa7e0e9cf4f9728fbf99fdd4a4a767fe9_cgraph.png" border="0" usemap="#anamespacecbdc_aa7e0e9cf4f9728fbf99fdd4a4a767fe9_cgraph" alt=""/></div>
 <map name="anamespacecbdc_aa7e0e9cf4f9728fbf99fdd4a4a767fe9_cgraph" id="anamespacecbdc_aa7e0e9cf4f9728fbf99fdd4a4a767fe9_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,124,32"/>
-<area shape="rect" href="namespacecbdc.html#a38350325f8a47299e396740deac27486" title="Deserializes a variant where none of the alternatives are default&#45;constructible." alt="" coords="172,5,292,32"/>
+<area shape="rect" href="namespacecbdc.html#a38350325f8a47299e396740deac27486" title="Deserializes a variant where the alternatives are all default constructible or all are not default co..." alt="" coords="172,5,292,32"/>
 </map>
 </div>
 

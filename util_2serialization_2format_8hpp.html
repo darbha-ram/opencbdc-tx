@@ -297,7 +297,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa9a6bdedf1d4b2d530f81580f6573396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38350325f8a47299e396740deac27486"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
 <tr class="memitem:a38350325f8a47299e396740deac27486"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecbdc.html#a38350325f8a47299e396740deac27486">cbdc::get_variant</a> (serializer &amp;deser) -&gt; std::variant&lt; Ts... &gt;</td></tr>
-<tr class="memdesc:a38350325f8a47299e396740deac27486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserializes a variant where none of the alternatives are default-constructible.  <a href="namespacecbdc.html#a38350325f8a47299e396740deac27486">More...</a><br /></td></tr>
+<tr class="memdesc:a38350325f8a47299e396740deac27486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserializes a variant where the alternatives are all default constructible or all are not default constructible If all alternatives are default constructible , each type must provide a constructor of the form T(serializer&amp;) which deserializes the type from its argument.  <a href="namespacecbdc.html#a38350325f8a47299e396740deac27486">More...</a><br /></td></tr>
 <tr class="separator:a38350325f8a47299e396740deac27486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
