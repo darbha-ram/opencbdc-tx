@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"namespacecbdc.html#a0d6a7b6736dd75a066a138b78ac09ffb":[0,0,0,34],
+"namespacecbdc.html#a0ff3a380a7f579e553fdbb93fbcd1691":[0,0,0,52],
 "namespacecbdc.html#a11e5728cf5cd7fa1daece7af2629eb0e":[0,0,0,107],
 "namespacecbdc.html#a200c57ce3a245288a3849bedfa359e4f":[0,0,0,85],
 "namespacecbdc.html#a22983ea4c034e9b374d7767cbcb7e54d":[0,0,0,76],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "namespacecbdc_1_1transaction_1_1validation.html#a5afc81b59fbabed2784969c32b332c56":[0,0,0,13,0,20],
 "namespacecbdc_1_1transaction_1_1validation.html#a6036a137d32c6ee72a9d6dd33588a81f":[0,0,0,13,0,9],
 "namespacecbdc_1_1transaction_1_1validation.html#a710658dd0de1424a932488cc81fdea20":[0,0,0,13,0,30],
-"namespacecbdc_1_1transaction_1_1validation.html#a7a51ee575788cdebf552fc1cc5a7b37e":[0,0,0,13,0,29],
-"namespacecbdc_1_1transaction_1_1validation.html#a7dc53de38884cc9c8cf5a9a79a4e59f0":[0,0,0,13,0,14],
-"namespacecbdc_1_1transaction_1_1validation.html#a8cea65acca5e16fecb28d85683d66ae1":[0,0,0,13,0,23]
+"namespacecbdc_1_1transaction_1_1validation.html#a7a51ee575788cdebf552fc1cc5a7b37e":[0,0,0,13,0,29]
 };
