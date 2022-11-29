@@ -11,6 +11,7 @@ var classcbdc_1_1transaction_1_1wallet =
     [ "is_spendable", "classcbdc_1_1transaction_1_1wallet.html#ac107d98de6e878cd41d9662d42ec494f", null ],
     [ "load", "classcbdc_1_1transaction_1_1wallet.html#a2d1829663335873671ccc1945e6ff7a4", null ],
     [ "mint_new_coins", "classcbdc_1_1transaction_1_1wallet.html#a74707315568d160c2130d74183b35c4b", null ],
+    [ "pubkeys", "classcbdc_1_1transaction_1_1wallet.html#ac40c1ecc7156beff37e7eae3a28fb7d0", null ],
     [ "save", "classcbdc_1_1transaction_1_1wallet.html#ab14dad71bfe40f9213c82e8e1d30d1cb", null ],
     [ "seed", "classcbdc_1_1transaction_1_1wallet.html#adeee389cb2c0204200931f98855dbf5b", null ],
     [ "seed_readonly", "classcbdc_1_1transaction_1_1wallet.html#a1c3cd37aaac3c62c8f371335a46fa56e", null ],

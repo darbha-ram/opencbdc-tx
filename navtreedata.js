@@ -61,19 +61,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classcbdc_1_1blocking__queue.html#aa39a51950e5faa28f737abecff60dfa8",
-"classcbdc_1_1coordinator_1_1rpc_1_1client.html#a742ea4ccbdcf587de90358429c860ae9",
-"classcbdc_1_1network_1_1connection__manager.html#a338373517e382bfef33af643349dcd97",
-"classcbdc_1_1raft_1_1node.html#a83d290f7ecf7dd8eab3750c6f92d08da",
-"classcbdc_1_1sentinel_1_1interface.html#a264e428ca02320214417d5303ccda8a8",
-"classcbdc_1_1watchtower_1_1async__client.html#a97687b57dc1b93550086fc44071987cb",
-"client-cli_8cpp.html",
-"namespacecbdc.html#a0d6a7b6736dd75a066a138b78ac09ffb",
-"namespacecbdc_1_1transaction_1_1validation.html#a7dc53de38884cc9c8cf5a9a79a4e59f0",
-"structcbdc_1_1atomizer_1_1state__machine_1_1snapshot.html#a4e0bff09c44c0e289da6f1bcfbfe32ec",
-"structcbdc_1_1transaction_1_1compact__tx.html#a2478a31eb86fa478cd211c3220a2b5e5",
-"uhs_2atomizer_2atomizer_2format_8hpp.html#aeaca0a7bb565e39961f9a494c07cc8d9",
-"validation_8hpp.html#afd1058c34035553ee415c69885f12a8f"
+"classcbdc_1_1blocking__queue__internal.html#a367e4450fcee45fcd51e6c351b2d155b",
+"classcbdc_1_1coordinator_1_1rpc_1_1client.html",
+"classcbdc_1_1network_1_1connection__manager.html#a1025f2bb329de37a914c63243c13ca64",
+"classcbdc_1_1raft_1_1log__store.html#af5e462fa81d0ad87dbea3ef23ee56871",
+"classcbdc_1_1sentinel_1_1controller.html#a8490b55af35073cabcd4f25319f8b86d",
+"classcbdc_1_1watchtower_1_1async__client.html#a3934a339e8a29f091eca0fff467c947f",
+"classcbdc_1_1watchtower_1_1watchtower.html",
+"logging_8hpp.html#a71a306e5ac8234a66ce25bb5aed18254",
+"namespacecbdc_1_1transaction.html#a009ccb08edfcc1b3bd0dd1c96313a21b",
+"structcbdc_1_1atomizer_1_1get__block__response.html#aef407bce3c03c5e62580120650d238d6",
+"structcbdc_1_1sentinel_1_1shard__info.html#aba4742fe8edc4531e477af7d6eb783e4",
+"uhs_2atomizer_2atomizer_2format_8hpp.html#a0b7e2c12a17bab211569ce70d0c38e1f",
+"validation_8hpp.html#ac7b86a1bd611afcfc7c94ef2ef0c4218aa47b1a9c48f3a43b28db0a9805a15cbd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
