@@ -24,7 +24,6 @@ var classcbdc_1_1client =
     [ "pending_inputs", "classcbdc_1_1client.html#a0036a244116de7a22f6d7f9f11db82cd", null ],
     [ "pending_tx_count", "classcbdc_1_1client.html#a0a4d3fe7cd62fb9326735fd7ea3069d4", null ],
     [ "pending_txs", "classcbdc_1_1client.html#a6fec831beb2121296dff646a5b33301e", null ],
-    [ "pubkeys", "classcbdc_1_1client.html#a429935d1c9447aff160067fae2728b77", null ],
     [ "send", "classcbdc_1_1client.html#af183f0fc2d53d4185350b6af771c8d5c", null ],
     [ "send_mint_tx", "classcbdc_1_1client.html#a1628db25f881bf188ae03d0d20c7edfe", null ],
     [ "send_transaction", "classcbdc_1_1client.html#a86b27aa0a894d10ca06ded3eecb5108f", null ],
